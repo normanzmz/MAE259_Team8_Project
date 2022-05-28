@@ -1,5 +1,16 @@
-# MAE259_Team8_Project
-### Project Topics: Soft Robot Motion Simulation in2D Vascular-mimicking Network 
+#Softrobot Motion Simulation in2D Vascular-mimicking Network
+
+##Class: 
+### MAE259
+
+##Team: 
+###Team8
+
+##Author: 
+###Mingzhang Zhu, Zhengqi Zhong, YaoHsing Tseng
+
+##Abstract: 
+###
 
 
 
