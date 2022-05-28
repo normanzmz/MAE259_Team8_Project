@@ -2,15 +2,13 @@
 ## Softrobot Motion Simulation in 2D Vascular-mimicking Network
 
 ## General Info: 
-### * Class: MAE259
-### * Team: Team8
-### * Author: 
-##### 1.Mingzhang Zhu
-##### 2.Zhengqi Zhong
-##### 3.YaoHsing Tseng
+##### 1.Class: MAE259
+##### 2.Team: Team8
+##### 3.Author: 
+###### Mingzhang Zhu, Zhengqi Zhong, YaoHsing Tseng
 
 
-##Abstract: 
+## Abstract: 
 
 
 
