@@ -5,12 +5,12 @@
 
 ## 
 ### General Info: ###
-##### - Class: __MAE259__ #####
-##### - Team: Team8 #####
-##### - Author: ##### 
-##### 	- Mingzhang Zhu #####
-#####	- Zhengqi Zhong #####
-#####	- YaoHsing Tseng #####
+- Class: __MAE259__ 
+- Team: Team8 
+- Author: 
+	- Mingzhang Zhu 
+	- Zhengqi Zhong 
+	- YaoHsing Tseng
 
 
 
