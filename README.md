@@ -5,9 +5,13 @@
 
 ## 
 ### General Info: 
-##### 1.Class: MAE259
-##### 2.Team: Team8
-##### 3.Author: Mingzhang Zhu, Zhengqi Zhong, YaoHsing Tseng
+##### * Class: __MAE259__
+##### * Team: Team8
+##### * Author: 
+##### 		* Mingzhang Zhu
+#####		* Zhengqi Zhong
+####		* YaoHsing Tseng
+
 
 
 ### Abstract: 
