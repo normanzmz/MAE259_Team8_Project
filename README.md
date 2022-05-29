@@ -1,4 +1,4 @@
-# MAE259B Team Project #
+# MAE259B __Team 8__ Project #
 ## Softrobot Motion Simulation in 2D Vascular-mimicking Network ##
 - Abstract 
 	- Soft continuum robots with active steerable probes capable of navigating in a complex vascular network hold great promise for medical applications. This paper reports a simulation of a soft robot controlled by an external magnetic field to navigate in a 2D vascular network. We established a DER model for the soft robot and successfully controlled the equivalent force exerted by the magnetic field to follow the desired trajectory. The next step of this project includes integration of DER mode and PD controller, soft robot model refinement, and determining collision between the robot and walls.  
@@ -11,27 +11,34 @@
 - Installation 
 - Collaboration
 - Reference
- 
+
+## 
 ### General Info: ###
 - Class: __MAE259__ 
-- Team: Team8 
+- Team: __Team8__
 - Author: 
 	- Mingzhang Zhu 
 	- Zhengqi Zhong 
 	- YaoHsing Tseng
 
-
-
+##
 ### Techonologies 
 
-
+##
 ### Installation 
-#### Requirements 
+- Environment requirements 
+	- Matlab 
+- Files and directories
 
-
+##
 ### Collaboration 
+- Libraries Written by Prof. M.Khalid Jawed 
+	- 
+- 
 
 
+
+##
 ### Reference
 1. Zion Tsz Ho Tse et al., Soft Robotics in Medical Applications, Journal of Medical Robotics Research, doi: 10.1142/S2424905X18410064
 2. B. Vucelic et al., "The Aer-O-Scope Proof of Concept of a Pneumatic Skill-Independent, Self-Propelling Self- Navigating Colonoscope," Gastroenterology, vol. 130, no. 3, pp. 672-677, 2006.
