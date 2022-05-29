@@ -33,8 +33,6 @@
 ##
 ### Collaboration 
 - Libraries Written by Prof. M.Khalid Jawed 
-	- 
-- 
 
 
 
