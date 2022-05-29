@@ -14,7 +14,7 @@
 
 ## 
 ### General Info: ###
-- Class: __MAE259__ 
+- Class: __MAE259B__ (Advanced Topics in Solid Mechanics) 
 - Team: __Team8__
 - Author: 
 	- Mingzhang Zhu 
