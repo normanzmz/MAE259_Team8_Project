@@ -23,18 +23,32 @@
 
 ##
 ### Techonologies 
+- DER Methods 
 
 ##
 ### Installation 
 - Environment requirements 
-	- Matlab 
+	- Matlab (version: 2022a) 
+		- Simulink
+	
 - Files and directories
-	- Final Folder:
-		- Boundary:
-
+	- projectcode
+		- /main.m: Run this file to initialize all the parameters, and start the computation.  
+		- /Main_PD_Control.m: File to start PD controller simulation.  
+		- /Control_Block.slx: (Simulink) 
+			- Robot Systme
+`			- Control Loop 
+			- 
+		- /Robot_system.m: Function for robot system. 
+		- /load_parameters: All pre-defined parameters. 
+		- /maze.m: Create radom maze given the size of it. 
+		- /maze_fixed.mat: Result of the generated maze (fixed, not random) 
+		- /BoundaryJudge.m: Function to check whether nodes contact with the trail boundary (inside maze.)  
+		- lib/*: Contains all computational libraries (written by Prof. M.Khalid Jawed.) 
 ##
 ### Collaboration 
 - Libraries Written by Prof. M.Khalid Jawed 
+- Author: 
 
 
 
