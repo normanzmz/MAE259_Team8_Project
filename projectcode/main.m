@@ -9,10 +9,14 @@ counter = 1;
 %% Load Maze  
 rowDim = 4;
 colDim = 4;
-[lines,board,hist,result] = ...
-    maze(rowDim,colDim,[1,1],[rowDim,colDim],true,true);
+% [lines,board,hist,result] = ...
+%     maze(rowDim,colDim,[1,1],[rowDim,colDim],true,true);
+
+% save('maze_fixed.mat','lines','board','hist','result')
+load("maze_fixed.mat");
 init_pos = 1/(2*rowDim);
-save('maze_fixed.mat','lines','board','hist','result')
+figure()
+plot(lines(:,1),lines(:,2),'b', result(:,1),result(:,2),'y');
 
 %% Controller Gain value
 K_p = 500;
@@ -44,7 +48,7 @@ end
 % Initial position 
 nodes_I = zeros(N,2);
 for i = 1:N 
-    nodes_I(i,1) = (1-i) * dl + init_pos;
+    nodes_I(i,1) = (1-i) * dl+ init_pos;
     nodes_I(i,2) = init_pos;
 end 
 
@@ -54,10 +58,6 @@ for i = 1:N
     q0 (2*i-1) = nodes_I(i,1); % x coordinate 
     q0 (2*i) = nodes_I(i,2); % y coordinate
 end
-
-% Initial position and velo 
-% q = q0;
-% u = (q - q0) / dt;
 
 % tolerance 
 tol = EI / l^2 * 1e-3; 
@@ -95,9 +95,6 @@ for i = 2:length(result)
     end
 end
 
-% Create Boundry
-% Boundry()
-
 % Reference Force & Velo
 refer_Velo_mag = total_Length / total_Time;
 refer_Force_mag = 1/2 * rho_blood * refer_Velo_mag^2 * Area * Cd;
@@ -124,9 +121,10 @@ position_hist = timetable(position_hist,'TimeStep',seconds(dt));
 refer_Velo = timetable(refer_Velo,'TimeStep',seconds(dt));
 refer_Force = timetable(refer_Force,'TimeStep',seconds(dt));
 unit_vector = timetable(unit_vector,'TimeStep',seconds(dt));
-
 end_time = length(position_hist.position_hist)/(1/dt);
 
+% end_time = length(position_hist)/(1/dt);
+% simulation_Replace()
 real_robot_sim = sim('Control_Block_2021_b.slx');
 
 %% Get data from Simulation
