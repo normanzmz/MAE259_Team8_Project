@@ -29,10 +29,8 @@
 - Environment requirements 
 	- Matlab 
 - Files and directories
-	- Midterm Progress Folder: 
-		- Control_Block_2.slx: 
-			- jijijij
 	- Final Folder:
+		- Boundary:
 
 ##
 ### Collaboration 
