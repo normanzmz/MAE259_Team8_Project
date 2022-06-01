@@ -32,6 +32,10 @@
 - Environment requirements 
 	- Matlab (version: 2022a) 
 		- Simulink
+	- Operating System: 
+		- Windows 
+		- Ubuntu 
+		- MacOS
 	
 - Files and directories
 	- Final/src
@@ -51,7 +55,7 @@
 - Prof. M.Khalid Jawed (Supervisor): 
 	- Libraries
 	- Guidance
-- Author: 
+- Authors: 
 	- Mingzhang Zhu (Team Leader):   
 		- Softrobot research and design.
 		- Force Computation: 
