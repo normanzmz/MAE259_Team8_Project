@@ -23,9 +23,14 @@
 
 ##
 ### Techonologies 
-- DER Methods 
-- PD Control 
-- Viscosious Force 
+- DER Methods: 
+- PD Control: 
+- Force Computation: 
+	- Viscosious Force: 
+	- Contact Force with Maze: 
+- Maze: 
+	- Maze Generator: 
+	- Maze contact function: 
 
 ##
 ### Installation 
