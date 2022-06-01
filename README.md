@@ -50,11 +50,11 @@
 ### Collaboration 
 - Libraries Written by Prof. M.Khalid Jawed 
 - Author: 
-	Name	   |    Collaboration
------------------- | -------------------
-  Mingzhang Zhu    | \| 
-  Zhengqi Zhong    | \|
-  YaoHsing Tseng   | \|
+	-	Name	     |    Collaboration
+	- ------------------ | -------------------
+	-   Mingzhang Zhu    | \| 
+	-   Zhengqi Zhong    | \|
+	-   YaoHsing Tseng   | \|
 
 
 ##
