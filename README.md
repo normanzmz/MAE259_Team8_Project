@@ -48,14 +48,24 @@
 		- lib/*: Contains all computational libraries (written by Prof. M.Khalid Jawed.) 
 ##
 ### Collaboration 
-- Libraries Written by Prof. M.Khalid Jawed 
+- Prof. M.Khalid Jawed (Supervisor): 
+	- Libraries
+	- Guidance
 - Author: 
-	- Mingzhang Zhu: 
-		- iji 
+	- Mingzhang Zhu (Team Leader):   
+		- Softrobot research and design.
+		- Force Computation: 
+			- Viscosious Force  
 	- Zhengqi Zhong: 
-		- jkj
+		- PD Controller Design. 
+		- Robot DER Simulation. 
+		- Simulation Environment Design.  
+		- Force Computation: 
+			- Cotact Force. 
 	- YaoHsing Tseng: 
-		- jkj
+		- Help with designing simulation environment.  
+		- Flow Chart 
+		- Presentation.  
 
 
 ##
