@@ -24,6 +24,8 @@
 ##
 ### Techonologies 
 - DER Methods 
+- PD Control 
+- Viscosious Force 
 
 ##
 ### Installation 
@@ -32,24 +34,27 @@
 		- Simulink
 	
 - Files and directories
-	- projectcode
-		- /main.m: Run this file to initialize all the parameters, and start the computation.  
+	- Final/src
+		- /main.m: Run this file to initialize all the parameters, and start the computation.
 		- /Main_PD_Control.m: File to start PD controller simulation.  
 		- /Control_Block.slx: (Simulink) 
-			- Robot Systme
-`			- Control Loop 
-			- 
-		- /Robot_system.m: Function for robot system. 
-		- /load_parameters: All pre-defined parameters. 
+			- Robot Systme (DER)
+			- Control Loop 
+			- Viscosious Force Computation. 
 		- /maze.m: Create radom maze given the size of it. 
-		- /maze_fixed.mat: Result of the generated maze (fixed, not random) 
-		- /BoundaryJudge.m: Function to check whether nodes contact with the trail boundary (inside maze.)  
+		- /load_maze.m: Load the existed maze file. 
+		- /largemaze_fixed.mat: Generated maze (fixed, not random) 
+		- /BoundaryJudge.m: Function to check whether nodes contact with the maze boundary (inside maze.)  
 		- lib/*: Contains all computational libraries (written by Prof. M.Khalid Jawed.) 
 ##
 ### Collaboration 
 - Libraries Written by Prof. M.Khalid Jawed 
 - Author: 
-
+	Name	   |    Collaboration
+-------------------|--------------------
+  Mingzhang Zhu    | \| 
+  Zhengqi Zhong    | \|
+  YaoHsing Tseng   | \|
 
 
 ##
