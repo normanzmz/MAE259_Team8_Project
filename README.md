@@ -50,6 +50,12 @@
 		- /largemaze_fixed.mat: Generated maze (fixed, not random) 
 		- /BoundaryJudge.m: Function to check whether nodes contact with the maze boundary (inside maze.)  
 		- lib/*: Contains all computational libraries (written by Prof. M.Khalid Jawed.) 
+- Install and Run: 
+	1. Add Final/src/lib/* to Matlab path. 
+	2. Run Final/src/main.m
+	3. Run Final/src/Control_Block.slx 
+	4. Simulation would start.  
+
 ##
 ### Collaboration 
 - Prof. M.Khalid Jawed (Supervisor): 
