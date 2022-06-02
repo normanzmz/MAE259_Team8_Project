@@ -67,7 +67,9 @@
 ###
 - Result
 	- Simulation Demonstration: 
-		 - https://github.com/normanzmz/MAE259_Team8_Project/blob/main/Final/Simulation.mp4
+		 - https://user-images.githubusercontent.com/64833251/171540306-3c4d0a07-86de-4a3f-856c-9c63b8bb754c.mp4
+
+
 
 ##
 ### Collaboration 
