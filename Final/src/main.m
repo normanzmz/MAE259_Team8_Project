@@ -125,29 +125,42 @@ end_time = length(position_hist.position_hist)/(1/dt);
 
 % end_time = length(position_hist)/(1/dt);
 % simulation_Replace()
+addpath('lib/');
 real_robot_sim = sim('Control_Block_final.slx');
 
 %% Get data from Simulation
 real_Posi = squeeze(real_robot_sim.real_Posi.Data)';
 real_Velo = squeeze(real_robot_sim.real_Velo.Data)';
 Total_Force = squeeze(real_robot_sim.Total_Force.Data)';
+Ex_force = squeeze(real_robot_sim.Ex_force.Data)';
 q = squeeze(real_robot_sim.q.Data)';
 time_hist = real_robot_sim.tout;
 
-%% Plot 
-for i = 1:length(real_Posi)-1
-    figure(5)
-    plot(result(:,1),result(:,2), 'y');
-    hold on
-    plot(lines(:,1),lines(:,2), 'b');
-    hold on
-    plot(q(i,1:2:end),q(i,2:2:end),'ro-');
-    hold on
-    plot(real_Posi(i,1), real_Posi(i,2),'ro');
-    axis([-0.5,1.1,-0.1,1.1])
-
-    
-    % quiver(real_Posi(i,1),real_Posi(i,2),Total_Force(i,1)*1000,Total_Force(i,2)*1000, 5);
-    hold off
-end
-
+%% Plot Video Create
+% v = VideoWriter('../Simulation.mp4','MPEG-4');
+% open(v)
+% for i = 1:length(real_Posi)-1
+%     figure(2)
+%     plot(result(:,1),result(:,2), 'g');
+%     hold on
+%     plot(lines(:,1),lines(:,2), 'b');
+%     hold on
+%     plot(q(i,1:2:end),q(i,2:2:end),'ro-');
+%     hold on
+%     plot(real_Posi(i,1), real_Posi(i,2),'ro');
+%     axis([-0.5,1.1,-0.1,1.1])
+% 
+%     hold off
+% 
+%     M = getframe(gcf);
+%     writeVideo(v,M);
+% end
+% 
+% close(v)
+%% Plot Contact Force
+figure(3)
+plot(lines(:,1), lines(:,2),'b', result(:,1),result(:,2),'g');hold on;
+plot(q(400,1:2:2*N), q(400,2:2:2*N),'ro');
+quiver(q(400,59), q(400,60),-Ex_force(400,59),-Ex_force(400,60), 5,'m');
+title('Contact Force'); xlabel('X');ylabel('Y');
+hold off;
