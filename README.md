@@ -29,7 +29,7 @@
 - Force Computation: 
 	- Viscosious Force: 
 	- Contact Force with Maze: 
-		- ![picture alt](https://github.com/normanzmz/MAE259_Team8_Project/blob/main/Final/Contact%20Force%202.png)
+		- ![picture alt](https://github.com/normanzmz/MAE259_Team8_Project/blob/main/Final/result/Contact%20Force%202.png)
 - Maze: 
 	- Maze Generator: 
 	- Maze contact function: 
@@ -68,6 +68,7 @@
 - Result
 	- Simulation Demonstration: 
 		 - https://user-images.githubusercontent.com/64833251/171540306-3c4d0a07-86de-4a3f-856c-9c63b8bb754c.mp4
+
 
 
 
