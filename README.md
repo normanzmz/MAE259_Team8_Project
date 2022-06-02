@@ -28,6 +28,7 @@
 - Force Computation: 
 	- Viscosious Force: 
 	- Contact Force with Maze: 
+		- ![picture alt](https://github.com/normanzmz/MAE259_Team8_Project/blob/main/Final/Contact%20Force%202.png)
 - Maze: 
 	- Maze Generator: 
 	- Maze contact function: 
@@ -61,7 +62,7 @@
 	3. Run Final/src/Control_Block.slx 
 	4. Simulation would start.  
 
-##
+#
 ### Collaboration 
 - Prof. M.Khalid Jawed (Supervisor): 
 	- Libraries
