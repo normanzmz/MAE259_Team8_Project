@@ -81,12 +81,13 @@
 - Authors: 
 	- Mingzhang Zhu (Team Leader):   
 		- Softrobot research and design.
+		- Presentation
 		- Force Computation: 
 			- Viscosious Force
 		- DER simulator design
 	- Zhengqi Zhong: 
 		- PD Controller Design. 
-		- Robot DER Simulation. 
+		- Robot Maze Contact Force Design. 
 		- Simulation Environment Design. 
 		- Presentation
 		- Flow chart
