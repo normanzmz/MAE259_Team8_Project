@@ -96,6 +96,7 @@
 	- YaoHsing Tseng: 
 		- Flow chart. 
 		- Discussion
+		- Github Readme Editing
 		- Presentation.  
 
 
@@ -114,12 +115,3 @@
 11. Shim, Sang & Yashin, Victor & Isayev, Avraam. (2004). Environmentally-friendly physico-chemical rapid ultrasonic recycling of fumed silica-filled poly(dimethyl siloxane) vulcanizate. Green Chemistry - GREEN CHEM. 
 12. https://hypertextbook.com/facts/2004/MichaelShmukler.shtml
 13. DAVIS, A. M. J., and K. B. RANGER. “A STOKES FLOW MODEL FOR THE DRAG ON A BLOOD CELL.” Quarterly of Applied Mathematics, vol. 45, no. 2, 1987, pp. 305–11
-
-
-
-
-
-
-
-
-
