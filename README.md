@@ -90,8 +90,9 @@
 		- Force Computation: 
 			- Cotact Force. 
 	- YaoHsing Tseng: 
-		- Help with designing simulation environment.  
-		- Flow Chart 
+		- Solution to DER simulation. 
+		- Designing simulation environment.  
+		- Flow chart. 
 		- Presentation.  
 
 
