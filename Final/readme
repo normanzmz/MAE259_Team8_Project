@@ -1,0 +1,4 @@
+Add Final/src/lib/* to Matlab path.
+Run Final/src/main.m
+Run Final/src/Control_Block.slx
+Simulation would start.
